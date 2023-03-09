@@ -12,7 +12,7 @@ function App() {
     title : "",
     description : "",
     notes : "",
-    date : ""
+    date : "",
 })
 
 
@@ -26,7 +26,7 @@ function App() {
   return (
     <NewTodoContext.Provider value={inputStrings}>
     <div className="flex items-center">
-      <div className="flex flex-1 flex-wrap">
+      <div className="flex flex-1 flex-wrap m-8">
       {cards.map((card) => {
         return <TodoCard key={card.title} title={card.title} description={card.description} notes={card.notes} date={card.date} />
       })}

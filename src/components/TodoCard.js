@@ -13,11 +13,6 @@ export default function TodoCard(props) {
             <h1 className='text-3xl'>{title}</h1>
             <h3 className='text-xl' >{description}</h3>
             <p className='italic'>{notes}</p>
-            
-            <ul className='list-disc'>
-                <li>dsa</li>
-
-            </ul>
             <h2 className='text-2xl font-bold self-end'>{dueDate}</h2>
             </div>
 
